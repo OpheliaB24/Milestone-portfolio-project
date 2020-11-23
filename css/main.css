@@ -1,0 +1,229 @@
+/* * * BASE STYLES * * */
+
+body{
+  background-color: #ffffff;
+  color: #FFDDCF;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* * * * * GRID * * * * */
+
+.full-width{
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width{
+  float: left;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.third-width{
+  float: left;
+  margin: 0 auto;
+  width: 400px;
+}
+
+/* * * HEADER * * */
+
+header{
+  background: url('../img/beach-landscape.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding: 20px 25px;
+}
+
+h1{
+  font-family:  'Dancing Script', cursive;
+  font-size: 50px;
+  color: #6B323B;
+  line-height: 30px;
+  clear: both;
+  padding-left:0px;
+}
+
+p{
+  font-size: 30px;
+  clear: both;
+  color: #E9C3AF;
+  font-weight: 100;
+}
+
+/* * * WORK * * */
+
+main{
+  margin: 0 auto;
+}
+
+#work{
+  background-color: #F6E7DF;
+  color: #6B323B;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  margin: 50px 0;
+  padding-bottom: 50px;
+}
+
+.project{
+  margin: 0 25px;
+  overflow: auto;
+}
+
+.image{
+  float: left;
+  height: 400px;
+  width: 500px;
+  padding: 0 25px;
+}
+
+#work img{
+  border: 2px solid #6B323B;
+}
+
+.description{
+  height: 400px;
+  width: 500px;
+  float: left;
+  padding-left: 60px;
+  padding-top: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.description h3{
+  font-size: 35px;
+  text-transform: capitalize;
+
+}
+
+.description h3 em{
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.description p{
+  font-size: 30px;
+  color: #706677;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+/* * * ABOUT * * */
+
+#about{
+  background-color: #E9C3AF;
+  color: #6B323B;
+}
+
+#about .full-width{
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#about h2{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px 0;
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+
+#about img{
+  border: 2px solid #6B323B;
+  margin-left: 25px;
+}
+
+#about p{
+  font-size: 30px;
+  line-height: 28px;
+  text-align: justify;
+  color: #706677;
+}
+
+/* * * FOOTER * * */
+
+#contact{
+  background-color: #AC8E86;
+  color: #FECB8F;
+}
+
+#contact h2{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px 0;
+  font-size: 60px;
+  padding-bottom: 50px;
+  color: #6B323B;
+}
+
+#contact a{
+  text-decoration: none;
+  color: #F6E7DF;
+}
+
+#contact a:hover{
+  color: #6B323B;
+}
+
+.third-width{
+	height: auto;
+}
+
+.third-width h4{
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #6B323B;
+}
+
+.third-width p{
+  font-size: 30px;
+  text-align: center;
+  color: #F6E7DF;
+  font-weight: 100;
+}
+
+#contact ul{
+  text-align: center;
+  list-style: none;
+}
+
+#contact ul li{
+  display: inline-block;
+}
+
+.fab{
+  padding-right: 50px;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.fab:hover{
+  font-size: 30px;
+  color: #6B323B;
+}
+
+#hire h4{
+  padding-bottom: 25px;
+}
+
+#meet h4{
+  padding-bottom: 25px;
+}
+
+.copyright h6{
+  font-size: 16px;
+  text-align: center;
+  clear: both;
+  padding-top: 60px;
+  color: #6B323B;
+}
